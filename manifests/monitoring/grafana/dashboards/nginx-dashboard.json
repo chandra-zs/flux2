@@ -19,10 +19,16 @@
         ]
       },
     "description": "nginx sample Grafana dashboard with Prometheus",
+    "fiscalYearStartMonth": 0,
+    "iteration": 1639541377911,
+    "links": [],
+    "liveNow": false,
+    "tags": [],
     "style": "dark",
     "timezone": "browser",
     "editable": true,
     "hideControls": false,
+    "graphTooltip": 1,
     "panels": [
         {
             "id": 29,
@@ -33,7 +39,7 @@
               "h": 8
             },
             "type": "timeseries",
-            "title": "nginx",
+            "title": "Nginx",
             "targets": [
               {
                 "expr": "kube_deployment_status_replicas_available{deployment=\"nginx-deployment\"}",
@@ -126,5 +132,5 @@
     "schemaVersion": 17,
     "version": 0,
     "uid": "nginx-deployment",
-    "title": "ngnix deployment"
+    "title": "Ngnix deployment"
   }
