@@ -8,7 +8,6 @@ configMapGenerator:
     files:
       - ../grafana/dashboards/control-plane.json
       - ../grafana/dashboards/cluster.json
-      - ../grafana/dashboards/nginx-alert.json
       - ../grafana/dashboards/nginx-dashboard.json
     options:
       labels:
